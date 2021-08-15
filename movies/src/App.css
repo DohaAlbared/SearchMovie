@@ -1,0 +1,86 @@
+body{
+  background-color: red;
+}
+
+.App{
+  align-self: center;
+}
+.ListPage{
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.ListBox{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  min-width:250px;
+  padding: 20px;
+  border-radius: 25px;
+  border: 2px dashed #568824;
+  margin-top: 15px;
+}
+.searchField{
+  height:30px;
+  width: 140px;
+  outline: none;
+  border-radius: 25px;
+  border: none;
+  font-size: 13px;
+  
+}
+.searchBar{
+  height:40px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  border: 2px solid #568824;
+  padding: 0px 13px;
+  background-color: white;
+  margin-left:20px;
+  margin-bottom: 10px;
+
+}
+.filters{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.dropdown-menu {
+  max-height: 100px;
+  overflow-y: scroll;
+}
+.btnn{
+  background-color:  #456327;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 40px;
+}
+.movieContainer{
+  display: flex;
+  justify-content: center;
+}
+.movie{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: dashed;
+  border-radius: 5%;
+  padding: 20px;
+  width: 50%;  
+  min-width: 300px;
+}
+
+img{
+  margin: 20px;
+}
+
